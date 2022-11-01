@@ -1,0 +1,19 @@
+@import "../../common/styles.scss";
+
+.home-page {
+  .home-slider-btn {
+    background-color: $base-color;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 12px 22px;
+  }
+  .slide-no {
+    font-size: 10rem;
+    font-weight: 200;
+  }
+  .slide-counts {
+    font-weight: 300;
+  }
+  background-image: linear-gradient(to bottom right, #221220, #521452, #221220);
+}
