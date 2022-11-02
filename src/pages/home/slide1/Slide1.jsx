@@ -12,7 +12,7 @@ const Slide1 = () => {
       <GlobeContainer />
       <div className="content row container-fluid mt-5">
         <div className="col-8 left-section my-auto">
-          <section className="ps-5 moving-text">
+          <section className="ps-5 moving-text moving-text-1">
             <h1 className="primary-color">Powerful</h1>
             <div className="row no-gutters ms-1">
               <div className="col-md-1 col-2 px-0">
