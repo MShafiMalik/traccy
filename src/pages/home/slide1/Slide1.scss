@@ -22,24 +22,6 @@
         margin-top: 18rem;
         margin-left: 2.3rem;
       }
-      .moving-text {
-        position: absolute;
-        left: 0;
-        top: 0;
-        z-index: -1;
-        // transform: translateY(120%);
-        .performance {
-          color: $light-color;
-          font-weight: 400;
-        }
-        .paragraph {
-          color: $light-color;
-          p {
-            font-weight: 300;
-            margin-bottom: 0;
-          }
-        }
-      }
     }
     .right-section {
       section {

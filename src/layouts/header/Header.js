@@ -11,7 +11,6 @@ const Header = () => {
           width={140}
           height={30}
         />
-        <span className="border-end border-2 ms-2"></span>
         <span className="text-light text">
           <small>Impact</small>
           <br />
