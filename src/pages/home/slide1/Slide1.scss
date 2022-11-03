@@ -45,7 +45,8 @@
         }
         .slide-in {
           animation-name: slideInText;
-          animation-duration: 3s;
+          animation-duration: 5s;
+          animation-timing-function: ease;
         }
 
         .form {
@@ -80,7 +81,7 @@
     .right-section {
       .slide-in-no {
         animation-name: slideInNo;
-        animation-duration: 2s;
+        animation-duration: 3s;
         animation-timing-function: ease;
       }
       @keyframes slideInNo {

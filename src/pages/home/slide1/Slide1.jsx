@@ -39,7 +39,7 @@ const Slide1 = () => {
       }
     }, slideTime);
     if (firstSlideFlag === true) {
-      slideTime = 2000;
+      slideTime = 4000;
       firstSlideFlag = false;
     }
   }
