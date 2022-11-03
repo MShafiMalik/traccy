@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/traccy/static/css/main.cbd75b1b.css",
-    "main.js": "/traccy/static/js/main.ffc955cb.js",
+    "main.css": "/traccy/static/css/main.927cddb6.css",
+    "main.js": "/traccy/static/js/main.0a0d8307.js",
     "static/media/new_trans_2.svg": "/traccy/static/media/new_trans_2.2ed56f387dd970b64ca51a1acf09f3ff.svg",
     "index.html": "/traccy/index.html",
-    "main.cbd75b1b.css.map": "/traccy/static/css/main.cbd75b1b.css.map",
-    "main.ffc955cb.js.map": "/traccy/static/js/main.ffc955cb.js.map"
+    "main.927cddb6.css.map": "/traccy/static/css/main.927cddb6.css.map",
+    "main.0a0d8307.js.map": "/traccy/static/js/main.0a0d8307.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbd75b1b.css",
-    "static/js/main.ffc955cb.js"
+    "static/css/main.927cddb6.css",
+    "static/js/main.0a0d8307.js"
   ]
 }
