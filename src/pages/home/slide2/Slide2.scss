@@ -1,0 +1,9 @@
+.slider-wrapper {
+  display: flex;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  .slider-item {
+    width: 33.33%;
+  }
+}

@@ -10,6 +10,7 @@
     z-index: 999;
     .left-section {
       position: relative;
+      overflow: hidden;
       .line {
         margin-top: 23px;
         width: 100%;
@@ -22,8 +23,83 @@
         margin-top: 18rem;
         margin-left: 2.3rem;
       }
+      .moving-text-contain {
+        .moving-text {
+          width: 100%;
+          max-width: 350px;
+          position: absolute;
+          left: 0;
+          top: 100%;
+          z-index: -1;
+          .performance {
+            color: $light-color;
+            font-weight: 400;
+          }
+          .paragraph {
+            color: $light-color;
+            p {
+              font-weight: 300;
+              margin-bottom: 0;
+            }
+          }
+        }
+        .slide-in {
+          animation-name: slideInText;
+          animation-duration: 3s;
+        }
+
+        .form {
+          input,
+          input:focus,
+          textarea {
+            outline: none;
+            border: none;
+            border-bottom: 1px solid $base-color;
+            background-color: transparent;
+            color: #fff;
+            width: 100%;
+            padding: 8px 0;
+            margin-bottom: 10px;
+            font-size: 15px;
+          }
+        }
+
+        @keyframes slideInText {
+          0% {
+            top: 100%;
+          }
+          50% {
+            top: 0;
+          }
+          100% {
+            top: -100%;
+          }
+        }
+      }
     }
     .right-section {
+      .slide-in-no {
+        animation-name: slideInNo;
+        animation-duration: 2s;
+        animation-timing-function: ease;
+      }
+      @keyframes slideInNo {
+        0% {
+          top: 100%;
+        }
+        100% {
+          top: 0;
+        }
+      }
+      .slide-no {
+        position: relative;
+        overflow: hidden;
+        .slide-no-count {
+          position: absolute;
+          left: 5rem;
+          top: 100%;
+        }
+      }
       section {
         max-width: 180px;
         margin-left: auto;
